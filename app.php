@@ -86,7 +86,7 @@ $html = <<<HTMLCONTENT
             </tfoot>
         </table>
 
-        There are no strict rules how to structure your app but we recommend to use the one above. You are also given full freedom of how to template. Feel free to use your own templating style or to use a framework such as <a href="http://ellislab.com/codeigniter" target="_blank" rel="nofollow">CodeIgniter</a> or anything else with a small footprint.
+        There are no strict rules how to structure your app but we recommend to use the one above. You are also given full freedom of how to template. Feel free to use your own templating style or to use a framework such as <a href="http://twig.sensiolabs.org/" target="_blank" rel="nofollow">Twig</a>, <a href="http://ellislab.com/codeigniter" target="_blank" rel="nofollow">CodeIgniter</a> or anything else with a small footprint.
 
         <h3>File contents</h3>
 
