@@ -199,7 +199,7 @@ HTML;
 </code></pre>Instead of crawling all the JSONs from the endpoints you can use these cached files, which are updated every day. This helps to reduce HTTP requests and thus you minimize execution time and bandwidth.
 
 To read a cached endpoint file just use something like <pre><code>\$filename = NiceFileName::get('"Laboratorio Hacker de Campinas');
-\$endpoint = file_get_contents(STATUSCACHEDIR . \$filename);</code></pre>
+\$endpoint = file_get_contents(STATUSCACHEDIR . \$filename . '.json');</code></pre>
 
 The class <em>NiceFileName</em> provides the <em>get</em> method which maps the original space name to the file name. The space names themselves can be taken from the directory, where they're the keys for the endpoint URLs.
 </td>
