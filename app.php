@@ -20,7 +20,7 @@ $html = <<<HTMLCONTENT
         <h2>How to write a Space API app?</h2>
 
         <p>
-            It's very straight forward to create a new app to be integrated with <a href="http://%SITEURL%" target="_blank">%SITEURL%</a>. This guide will help you to dive into the necessary details and to get your first app quickly done.
+            It's very straightforward to create a new app to be integrated with <a href="http://%SITEURL%" target="_blank">%SITEURL%</a>. This guide will help you to dive into the necessary details and to get your first app quickly done.
         </p>
 
         <p class="spaceapi-box spaceapi-box-note">
@@ -128,7 +128,7 @@ if(!defined("APPSDIR"))
 
     &lt;section>
         &lt;h2>Hello World!&lt;/h2>
-        It's very straight forward to create a new app. Just have a look at the documentation or at existing apps.
+        It's very straightforward to create a new app. Just have a look at the documentation or at existing apps.
     &lt;/section>
 
 HTML;
